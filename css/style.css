@@ -36,6 +36,7 @@ section.main {
    background-clip: border-box;
    background-size: cover;
    background-repeat: round;
+   background-attachment: fixed;
    width: 100%;
    height: 100%;
 }
