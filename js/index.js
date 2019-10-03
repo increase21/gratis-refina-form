@@ -496,7 +496,7 @@ $(document).ready(() => {
       <p>
       <input class="form-control" type="text" id="address"></p>
 <label for="z-code">Zip Code</label>
-<p>      <input class="form-control" type="tel" id="z_code" min="8" max="8"></p>
+<p>      <input class="form-control" type="tel" id="z_code" maxlength="8" maxlength="8"></p>
 <div class="text-center pt-3"><button type="button" class="btn btn-blue qt8">Next</button>
 
 </form>`
@@ -560,10 +560,10 @@ $(document).ready(() => {
 <p>      <input class="form-control" type="email" id="email"></p>
 
 <label for="z-code">Phone</label>
-<p>      <input class="form-control" type="tel" id="phone"></p>
+<p>      <input class="form-control" type="tel" id="phone" maxLength="10" minLength="10"></p>
 
 <label for="alt_phone">Alternative Phone(optional)</label>
-<p>      <input class="form-control" type="tel" id="alt_phone"></p>
+<p>      <input class="form-control" type="tel" id="alt_phone" maxLength="10" minLength="10"></p>
 
 <p class="text-center pt-3"><button type="button" class="btn btn-blue qt10" >Submit</button></p>
 
