@@ -163,7 +163,16 @@ input[type="radio"]:checked+span {
    opacity: 1;
 }
 
-.mslider::-webkit-slider-thumb,
+.mslider::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background: #18507f;
+   cursor: pointer;
+}
+
 input[type=range]::-moz-range-thumb {
    -webkit-appearance: none;
    appearance: none;
